@@ -240,6 +240,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .section-padding-02 {
   padding-top: 120px;
 }
+
 @media only screen and (max-width: 1199px) {
   .section-padding-02 {
     padding-top: 100px;
