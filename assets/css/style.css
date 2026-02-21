@@ -799,6 +799,15 @@ textarea:-ms-input-placeholder {
   color: #ffffff;
 }
 
+.cta-button a, .cta-button-mobile a {
+  background: #683bf2;
+  color: #ffffff;
+}
+.cta-button a:hover, .cta-button-mobile a:hover {
+  background: #5723d1;
+  color: #ffffff;
+}
+
 .btn-2 {
   background: #07294d;
   color: #ffffff;
@@ -1056,11 +1065,7 @@ textarea:-ms-input-placeholder {
   background-color: #F3F3F3;
   width: 2px;
   height: 40px;
-}
-@media only screen and (max-width: 991px) {
-  .header-meta::before {
-    display: none;
-  }
+  display: none;
 }
 
 .header-top-section {
@@ -11417,4 +11422,28 @@ textarea:-ms-input-placeholder {
   opacity: 1;
   visibility: visible;
   transform: translateX(0);
+}
+
+/* WhatsApp Floating Icon */
+.whatsapp-float {
+  position: fixed;
+  right: 50px;
+  bottom: 110px;
+  width: 45px;
+  height: 45px;
+  background-color: #25d366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  transition: all 0.3s ease;
+}
+.whatsapp-float:hover {
+  background-color: #128c7e;
+  transform: scale(1.1);
 }
