@@ -11448,3 +11448,10 @@ textarea:-ms-input-placeholder {
   background-color: #128c7e;
   transform: scale(1.1);
 }
+
+@media only screen and (max-width: 991px) {
+  .progress-wrap,
+  .whatsapp-float {
+    right: 12px;
+  }
+}
