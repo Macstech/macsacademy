@@ -1053,8 +1053,8 @@ textarea:-ms-input-placeholder {
   align-items: center;
   white-space: nowrap;
   position: relative;
-  padding-left: 35px;
-  margin-left: 50px;
+  padding-left: 0px;
+  margin-left: 0px;
 }
 .header-meta::before {
   content: "";
@@ -1376,6 +1376,7 @@ textarea:-ms-input-placeholder {
 .header-right {
   display: flex;
   align-items: center;
+  /* padding-right: 40px; */
 }
 
 .header-bottom-section {
