@@ -5418,6 +5418,7 @@ textarea:-ms-input-placeholder {
   }
   .course-section-08 .single-course .course-teacher .read-more .btn {
     width: 100%;
+    box-sizing: border-box;
     display: block;
     text-align: center;
   }
